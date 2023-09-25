@@ -17,7 +17,7 @@ function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              Omega Solution
+              Up2date Technology Solution 
             </a>{" "}
             One stop solution.
           </p>
@@ -31,7 +31,7 @@ function Footer() {
                   className="nav-link text-muted"
                   target="/"
                 >
-                  Omega
+                  Up2date
                 </a>
               </li>
               <li className="nav-item">

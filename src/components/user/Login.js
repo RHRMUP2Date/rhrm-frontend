@@ -28,9 +28,17 @@ const Login = () => {
 		toast.error("Error at login Please try again");
 	};
 
+	// const [count, setCount] = useState(0);
+
+	// const handleClick = () => {
+	// 	setCount(count + 1);
+	// 	setCount(prev => prev + 1);
+	// }
+ 
 	return (
 		<>
 			<Row className='card-row'>
+				
 				<Col span={24}>
 					<Card bordered={false} className={styles.card}>
 						<Title level={3} className='m-3 text-center'>
@@ -90,6 +98,8 @@ const Login = () => {
 								</Row>
 							</Form.Item>
 						</Form>
+						{/* <h1>{count}</h1>
+						<button onClick={handleClick}>click</button> */}
 					</Card>
 				</Col>
 			</Row>
